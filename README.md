@@ -19,3 +19,5 @@ Protip:Every time you save run pio run just in case also maybe close vscode and 
 # why is this important?
 
 Because we can use python code to interact with the motors which means visual or voice recognition among other things later on. 
+
+[Screencast from 12-27-2023 03:39:09 AM.webm](https://github.com/robot-waifu/wokwi-python/assets/46042807/3bbdb1b4-bb76-48d3-b516-6a90adbd73db)
