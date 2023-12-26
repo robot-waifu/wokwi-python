@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-mini", "id": "bb1", "top": 46.6, "left": -271.2, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -136.4, "left": -76.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:GND.1", "bb1:17b.j", "black", [ "h0" ] ],
+    [ "bb1:17b.f", "bb1:17t.e", "green", [ "v-28.8" ] ],
+    [ "esp:26", "bb1:16b.j", "green", [ "h0" ] ],
+    [ "bb1:15b.f", "bb1:15t.e", "green", [ "v0" ] ],
+    [ "bb1:16b.f", "bb1:16t.e", "green", [ "v0" ] ],
+    [ "bb1:16t.a", "servo1:PWM", "green", [ "v0" ] ],
+    [ "bb1:17t.a", "servo1:GND", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
