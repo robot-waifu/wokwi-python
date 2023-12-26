@@ -1,4 +1,4 @@
-#python wokwie integration 
+# python wokwie integration 
 
 step 1.install wokwie and platformio extension 
 
@@ -16,6 +16,6 @@ so it will no longer be a problem. Put up an issue and let me know.
 
 Protip:Every time you save run pio run just in case also maybe close vscode and open it again. 
 
-#why is this important?
+# why is this important?
 
 Because we can use python code to interact with the motors which means visual or voice recognition among other things later on. 
